@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>London Tech Meetups</title>
+    <title>London Tech Meetups 2024</title>
     <meta
       name="description"
       content="An open-source list of London tech meetups, for programmers and others involved in tech."
@@ -23,12 +23,11 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header></header>
     <nav>
       <ul class="topnav">
         <li>
           <a href="#top" class="home" onclick="navToggle()"
-            >London Tech Meetups</a
+            >London Tech Meetups 2024</a
           >
         </li>
         <li>
@@ -54,8 +53,7 @@
       </ul>
     </nav>
     <main>
-      <h1 id="top">London tech meetups 2024</h1>
-      <h2 id="language">Language-specific</h2>
+      <h2 class="subtitle" id="language">Language-specific</h2>
       <ul>
         <li>
           <a href="https://www.meetup.com/London-Clojurians/"
@@ -114,7 +112,7 @@
           monthly talks and networking for people interested in Ruby.
         </li>
       </ul>
-      <h2 id="technology">Technology-specific</h2>
+      <h2 class="subtitle" id="technology">Technology-specific</h2>
       <ul>
         <li>
           <a href="https://www.meetup.com/londonajax/">London AJAX</a>
@@ -233,7 +231,9 @@
           - an annual festival of creative computing.
         </li>
       </ul>
-      <h2 id="beginner">Beginner-friendly coding meetups</h2>
+      <h2 class="subtitle" id="beginner">
+        Beginner-friendly coding meetups
+      </h2>
       <ul>
         <li>
           <a href="https://www.meetup.com/Codecademy-London/"
@@ -253,7 +253,7 @@
           are interested in learning more about tech you are welcome.
         </li>
       </ul>
-      <h2 id="underrepresented">
+      <h2 class="subtitle" id="underrepresented">
         Meetups for people underrepresented tech
       </h2>
       <h4>General</h4>
@@ -352,8 +352,11 @@
       <h2 id="about">About this list</h2>
       <p>
         This list was originally put together by
-        <a href="https://jennybrennan.com">Jenny Brennan</a> and is
-        open to contributions (see below).
+        <a
+          href="https://github.com/londontechmeetups/londontechmeetups.github.io"
+          >Jenny Brennan</a
+        >
+        and is open to contributions (see below).
       </p>
       <p>
         It was most recently updated in August 2024 by
@@ -375,5 +378,14 @@
         for this page.
       </p>
     </main>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function navToggle() {
+        document
+          .getElementsByClassName("topnav")[0]
+          .classList.toggle("responsive");
+      }
+    </script>
   </body>
 </html>
