@@ -1,24 +1,29 @@
 body {
-  margin:40px auto;
-  line-height:1.6;
-  font-size:18px;
-  color:#444;
-  font-family: 'Roboto', sans-serif;
+  margin: 40px auto;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  font-family: "Helvetica", "Arial", sans-serif;
   font-weight: 300;
 }
 main {
-  max-width:650px;
+  max-width: 650px;
   margin: auto;
 }
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.2;
   font-weight: 100;
 }
 h1 {
+  font-weight: 600;
   padding: 220px 0px 0px 0px;
   margin-top: -150px;
 }
 h2 {
+  font-weight: 400;
   padding-top: 120px;
   margin-top: -100px;
 }
@@ -27,7 +32,7 @@ h2 {
   margin-top: -50px;
 }
 a {
-  color: #00CA9E;
+  color: #00ca9e;
   text-decoration: none;
 }
 a:hover {
@@ -51,10 +56,10 @@ header {
   background: url("london-skyline.png") #fff;
 }
 nav {
-  background-color: #00CA9E;
+  background-color: #00ca9e;
   overflow: hidden;
-  position: absolute
-  top:98px;
+  position: absolute;
+  top: 98px;
   left: 0;
   width: 100%;
   z-index: 150;
@@ -79,7 +84,7 @@ nav .home {
 nav li a {
   float: left;
   display: block;
-  background-color: #00CA9E;
+  background-color: #00ca9e;
   color: #fff;
   padding: 10px;
   margin: 0;
@@ -88,12 +93,11 @@ nav li a:hover {
   color: #008467;
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width: 820px) {
   ul.topnav li:not(:first-child) {
     display: none;
   }
   ul.topnav li.icon {
-    float: right;
     display: inline-block;
   }
   ul.topnav.responsive {
