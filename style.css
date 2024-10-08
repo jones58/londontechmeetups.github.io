@@ -6,7 +6,7 @@ nav {
   width: 100%;
 }
 
-.subtitle {
+.category {
   padding-top: 80px;
 }
 nav ul {
@@ -29,14 +29,7 @@ nav .home {
 nav li a {
   float: left;
   display: block;
-  background-color: #333;
-  color: #fff;
   padding: 10px;
-  margin: 0;
-}
-
-nav li a:hover {
-  color: #000;
 }
 
 @media screen and (max-width: 820px) {
@@ -66,7 +59,6 @@ nav li a:hover {
   }
 }
 
-/* $color-text: #dedce5; */
 /* Sakura.css v1.5.0
  * ================
  * Minimal css theme.
